@@ -1,0 +1,21 @@
+body {
+  background-color: darkgray;
+}
+
+.container {
+}
+
+#date {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: blue;
+  text-align: center;
+  padding-top: 25rem;
+}
+
+#txt {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: xx-large;
+  color: blue;
+  text-align: center;
+}
