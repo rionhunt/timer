@@ -1,8 +1,13 @@
 body {
   background-color: darkgray;
-}
-
-.container {
+  width: 400px;
+  height: 100px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -200px;
+  border: 3px solid blue;
 }
 
 #date {
@@ -10,7 +15,7 @@ body {
   font-size: xx-large;
   color: blue;
   text-align: center;
-  padding-top: 25rem;
+  /*padding-top: 25rem;*/
 }
 
 #txt {

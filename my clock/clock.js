@@ -28,6 +28,8 @@ function actualHour(h) {
   if (h > 12) {
     h -= 12;
     return h;
+  } else {
+    return h;
   }
 }
 
