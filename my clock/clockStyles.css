@@ -3,11 +3,31 @@ body {
   width: 400px;
   height: 100px;
   position: fixed;
-  top: 50%;
+  /*top: 50%;*/
   left: 50%;
   margin-top: -50px;
   margin-left: -200px;
   border: 3px solid blue;
+  /*This id is not in html, it must however match @keyframes*/
+  animation: spinner 10s infinite, mymove 10s infinite;
+}
+/*specifies an animation rule*/
+@keyframes spinner {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes mymove {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 800px;
+  }
 }
 
 #date {
